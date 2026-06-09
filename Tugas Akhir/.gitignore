@@ -1,0 +1,27 @@
+# Environment & Secrets
+.env
+.env.*
+
+# ML Model Artifacts (regenerate from training)
+*.joblib
+*.pt
+*.pkl
+*.npy
+*.npz
+
+# Large Data Files
+X_test_with_metadata.csv
+
+# Validation Output Directories (generated)
+who_validation_outputs/
+testing30_validation_outputs/
+testing100_validation_outputs/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/

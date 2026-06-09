@@ -1,0 +1,33 @@
+# Claude Code workspace
+.sixth/
+memory/
+
+# Frontend dependencies & build
+tb-ui/node_modules/
+tb-ui/.next/
+tb-ui/.vercel/
+tb-ui/*.tsbuildinfo
+
+# Frontend env (handled by tb-ui/.gitignore too)
+tb-ui/app/.env.local
+tb-ui/.env*
+
+# Backend - secrets & artifacts
+Tugas Akhir/.env
+Tugas Akhir/.env.*
+Tugas Akhir/*.joblib
+Tugas Akhir/*.pt
+Tugas Akhir/*.pkl
+Tugas Akhir/*.npy
+Tugas Akhir/*.npz
+Tugas Akhir/X_test_with_metadata.csv
+Tugas Akhir/__pycache__/
+Tugas Akhir/.pytest_cache/
+Tugas Akhir/.ipynb_checkpoints/
+Tugas Akhir/who_validation_outputs/
+Tugas Akhir/testing30_validation_outputs/
+Tugas Akhir/testing100_validation_outputs/
+
+# OS
+.DS_Store
+Thumbs.db
